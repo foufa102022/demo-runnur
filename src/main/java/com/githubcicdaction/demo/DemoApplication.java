@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
     @GetMapping("/welcome")
     public String welcome(){
-        return "Welcome To My App GuideTouristique";
+        return "WElcome To My App GuideTouristique";
     }
 
     public static void main(String[] args) {
